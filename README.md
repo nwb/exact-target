@@ -1,12 +1,14 @@
 # Exact::Target
 
 This Gem provides an interface to ExactTarget's TriggeredSend API.
+Albert plan add other Exact Target functions in this forked version.
+This includes add list, add subscriber to list, delete subscriber from list, update subscriber.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'exact-target'
+    gem 'exact-target', :git =>'git://github.com/nwb/exact-target'
 
 And then execute:
 
